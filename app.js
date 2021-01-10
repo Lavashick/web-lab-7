@@ -39,3 +39,9 @@ b3.onclick = function() {
   t2 = prompt('Введите температуру в градусах Фаренгейта для перевода в градусы Фаренгейта');
   console.log(`температура2 в градусах Цельсия: ${(t2-32)/1.8}\xB0C `);
 }
+
+b4.onclick = function() {
+  year = prompt('Введите год');
+  if ((year % 4 == 0) && (year % 100 !== 0)) console.log('true')
+  else console.log('false');
+};
