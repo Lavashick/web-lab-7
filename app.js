@@ -42,6 +42,11 @@ b3.onclick = function() {
 
 b4.onclick = function() {
   year = prompt('Введите год');
-  if ((year % 4 == 0) && (year % 100 !== 0)) console.log('true')
-  else console.log('false');
+  alert(((year % 4 == 0) && (year % 100 !== 0)));
 };
+
+b5.onclick = function() {
+  a = prompt('Первое число =');
+  b = prompt('Второе число =');
+  console.log( (a == 10 || b == 10|| (+a + +b) ==10) ? 'истина': 'ложь');
+}
