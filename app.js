@@ -22,3 +22,12 @@ console.log(`b + d = ${b+d}`);
 console.log(`c + d = ${c+d}`);
 //переменные c d приводятся к num
 };
+
+b2.onclick = function() {
+  let a = prompt('Введите первую сторону');
+  let b = prompt('Введите вторую сторону');
+
+  console.log(`периметр равен ${a*2 + b*2}`);
+  console.log(`площадь равна ${a*b}`);
+  console.log(`отношение периметра к площади равна ${(a*2+b*2)/(a*b)}`);
+};
